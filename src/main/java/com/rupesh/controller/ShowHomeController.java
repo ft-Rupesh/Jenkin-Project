@@ -17,6 +17,7 @@ public class ShowHomeController
 	//Without url
 	@RequestMapping("/")
 	public String showHomePage() {
+		System.out.println("HI");
 		return "welcome";
 		///IOC-Boot-MVC-Project-01-ShowingHomePage/src/main/webapp/WEB-INF/pages/welcome.jsp
 	}
